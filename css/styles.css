@@ -65,7 +65,8 @@ body{
   margin: 4px;
 }
 /* INNOVATE BUSSINESS */
- .box-icon img{
-  max-width: 100%;
-  width: calc(100% / 6);
+.icon ul li{
+  display:inline-block;
+  text-decoration: none;
+  
 }
