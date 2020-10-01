@@ -22,12 +22,11 @@ body{
   width: 30%;
   height: 4px;
 }
-.btn-sing-up{
-
+.btn-sign-up{
   border: 1px solid #2485fd;
   border-radius: 5px;
 }
- header .navbar-default .navbar-nav .btn-sing-up{
+ header .navbar-default .navbar-nav .btn-sign-up{
    color:#2485fd;
  }
 /* MAIN */
@@ -48,6 +47,7 @@ body{
   margin-top: 55px;
   background: #fff;
   border-radius: 8px;
+  margin-bottom: 55px;
 }
 .form-control{
   margin: 6px;
