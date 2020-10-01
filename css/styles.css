@@ -5,6 +5,7 @@ body{
 .navbar{
   background-color: #fff;
 }
+
 /* logo\img */
 .logo{
   width: 170px;
@@ -47,6 +48,11 @@ body{
   border-radius: 8px;
 }
 .account{
-  width: 100px;
+  margin: auto;
+  width: 500px;
   background-color:#2485fd;
+}
+.google{
+  margin: auto;
+  width: 500px;
 }
