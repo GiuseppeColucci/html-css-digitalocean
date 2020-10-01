@@ -4,6 +4,8 @@ body{
 /* NAV-BAR */
 .navbar{
   background-color: #fff;
+  padding:0;
+  margin: 0 auto;
 }
 
 /* logo\img */
@@ -58,6 +60,9 @@ body{
   background-color:#2485fd;
   margin: 4px;
 }
+.blue-color{
+  color:#0049ff;
+}
 .google{
   border-radius: 5px;
   margin: auto;
@@ -68,5 +73,8 @@ body{
 .icon ul li{
   display:inline-block;
   text-decoration: none;
-  
+
+}
+ul li img{
+  width: calc(100% / 6);
 }
