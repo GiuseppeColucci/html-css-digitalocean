@@ -1,12 +1,20 @@
 
 
-
+.navbar{
+  background-color: #fff;
+}
 /* logo\img */
 .logo{
-  max-width: 100px;
+  width: 170px;
   margin-top: 16px;
   margin-right: 10px;
 }
 .logo img{
   max-width: 100%;
+}
+.angle::before{
+  
+  display: inline-block;
+  width: 30%;
+  height: 4px;
 }
