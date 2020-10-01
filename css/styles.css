@@ -32,7 +32,7 @@ body{
   background-image: url(../img/bg-banner-home.jpg);
 }
 .text-box{
-  width: 50%;
+  
   color:#fff;
   margin-top: 55px;
   margin-bottom: 55px;
@@ -42,17 +42,24 @@ body{
   padding: 15px;
 }
 .box-mail{
-  width: 50%;
+
   float: right;
   background: #fff;
   border-radius: 8px;
 }
+.form-control{
+  margin: 6px;
+}
 .account{
+  border-radius: 5px;
   margin: auto;
   width: 500px;
   background-color:#2485fd;
+  margin: 4px;
 }
 .google{
+  border-radius: 5px;
   margin: auto;
   width: 500px;
+  margin: 4px;
 }
