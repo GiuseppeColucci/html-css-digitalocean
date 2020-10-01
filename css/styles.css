@@ -1,5 +1,7 @@
-
-
+body{
+  font-size: 18px;
+}
+/* NAV-BAR */
 .navbar{
   background-color: #fff;
 }
@@ -12,9 +14,33 @@
 .logo img{
   max-width: 100%;
 }
+
 .angle::before{
-  
+  left: 10px;
   display: inline-block;
   width: 30%;
   height: 4px;
+}
+.btn-sing-up{
+  color:#2485fd;
+  border: 1px solid #2485fd;
+  border-radius: 5px;
+}
+/* MAIN */
+.background-top-main{
+  background-image: url(../img/bg-banner-home.jpg);
+}
+.text-box{
+  width: 50%;
+  color:#fff;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.text-box h1,p{
+  padding: 15px;
+}
+.box-mail{
+  width: 50%;
+  float: right;
+  background: #fff;
 }
