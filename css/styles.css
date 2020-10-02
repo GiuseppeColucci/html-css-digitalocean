@@ -93,3 +93,16 @@ body{
         display: none;
     }
 }
+
+.box-list ul li{
+
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+
+
+
+}
+ul li img{
+  max-width: 100%;
+}
