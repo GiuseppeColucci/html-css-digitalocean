@@ -94,7 +94,7 @@ body{
     }
 }
 @media screen and (max-width: 768px){
-  .box-list{
+  .box-list ul li img{
     width: calc(100% / 3 - 12px );
   }
 
@@ -114,4 +114,6 @@ ul li img{
   font-size: 35px;
   margin-bottom:30px;
 }
-.box-list
+.box-list-vertical{
+  text-decoration: none;
+}
