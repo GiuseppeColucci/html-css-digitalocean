@@ -93,16 +93,17 @@ body{
         display: none;
     }
 }
-
+.row h5{
+  color:#b7b7b7;
+}
 .box-list ul li{
-
   width: 150px;
-  height: 150px;
   display: inline-block;
-
-
-
 }
 ul li img{
   max-width: 100%;
+}
+.box-list ul a{
+  font-size: 35px;
+  margin-bottom:30px;
 }
