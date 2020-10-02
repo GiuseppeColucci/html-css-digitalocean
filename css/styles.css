@@ -92,9 +92,12 @@ body{
     .navbar-collapse {
         display: none;
     }
-    .box-list{
-      width: calc(100% / 12 - 12px );
-    }
+}
+@media screen and (max-width: 768px){
+  .box-list{
+    width: calc(100% / 3 - 12px );
+  }
+
 }
 .row h5{
   color:#b7b7b7;
@@ -111,3 +114,4 @@ ul li img{
   font-size: 35px;
   margin-bottom:30px;
 }
+.box-list
