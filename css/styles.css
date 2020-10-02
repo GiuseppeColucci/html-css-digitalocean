@@ -75,12 +75,13 @@ body{
 .backgraun-lite-grey{
   background-color: #f3f5f9;
 }
+.box-title{
+  
+}
 .ico img{
   width:150px;
-
   margin-left: 31px;
   margin-right: 31px;
-
 }
 .row h5{
   color:#b7b7b7;
@@ -97,6 +98,7 @@ ul li img{
   margin-bottom:30px;
 }
 .box-list-vertical ul li{
+  font-size: 30px;
   list-style:none;
   border-left: 1px solid #b7b7b7;
   padding-left: 5px;
