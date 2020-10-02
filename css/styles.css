@@ -1,5 +1,5 @@
 body{
-  font-size: 18px;
+  font-size: 12px;
   padding-bottom: 90px;
 }
 /* NAV-BAR */
@@ -57,7 +57,7 @@ body{
 .account{
   border-radius: 5px;
   margin: auto;
-  width: 500px;
+  width: 100%;
   background-color:#2485fd;
   margin: 4px;
 }
@@ -67,7 +67,7 @@ body{
 .google{
   border-radius: 5px;
   margin: auto;
-  width: 500px;
+  width: 100%;
   margin: 4px;
 }
 /* INNOVATE BUSSINESS */
@@ -80,4 +80,16 @@ body{
   margin-left: 31px;
   margin-right: 31px;
 
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    /* Nascondi contenitore menu */
+    .navbar-collapse {
+        display: none;
+    }
 }
