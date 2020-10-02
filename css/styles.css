@@ -14,6 +14,7 @@ body{
   width: 170px;
   margin-top: 16px;
   margin-right: 10px;
+  height: 30px;
 }
 .logo img{
   max-width: 100%;
@@ -81,24 +82,6 @@ body{
   margin-right: 31px;
 
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    /* Mostra hamburger */
-    .navbar-toggle {
-        display: block;
-        position: absolute;
-        right: 0;
-    }
-    /* Nascondi contenitore menu */
-    .navbar-collapse {
-        display: none;
-    }
-}
-@media screen and (max-width: 768px){
-  ul li img{
-    width: calc(100% / 2 - 12px );
-  }
-
-}
 .row h5{
   color:#b7b7b7;
 }
@@ -121,4 +104,23 @@ ul li img{
 }
 .mini-box{
   width: 300px;
+}
+/* @MEDIA "Q" SCREEN */
+@media screen and (max-width: 768px){
+  .box-list ul li {
+    width: calc(100% / 2 - 12px);
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Mostra hamburger */
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  /* Nascondi contenitore menu */
+  .navbar-collapse {
+    display: none;
+  }
 }
