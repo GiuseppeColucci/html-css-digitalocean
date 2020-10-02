@@ -92,13 +92,17 @@ body{
     .navbar-collapse {
         display: none;
     }
+    .box-list{
+      width: calc(100% / 12 - 12px );
+    }
 }
 .row h5{
   color:#b7b7b7;
 }
 .box-list ul li{
-  width: 150px;
+  /* width: 150px; */
   display: inline-block;
+  width: calc(100% / 6 - 20px);
 }
 ul li img{
   max-width: 100%;
