@@ -122,9 +122,31 @@ ul li img{
 .container .row h3{
   text-align: center;
 }
+.box-whites{
+  margin-bottom: 30px;
+}
 .mini-box-2{
-  width: 300px;
+  width: 350px;
   margin-top: 35px;
+}
+.backgraun-regions{
+  background-color: #031b4e;
+}
+.backgraun-regions .container .row h3{
+  color:#fff;
+}
+.backgraun-regions ul li{
+  list-style: none;
+  border-bottom: 1px solid #fff;
+
+}
+.regions{
+  padding-right: 25px;
+  color: #fff;
+}
+.regions-2{
+  padding-right: 200px;
+  color: #fff;
 }
 /* @MEDIA "Q" SCREEN--------------------------------------------------------- */
 @media screen and (max-width: 768px){
