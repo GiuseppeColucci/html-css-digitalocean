@@ -108,7 +108,18 @@ ul li img{
 .mini-box{
   width: 300px;
 }
-/* @MEDIA "Q" SCREEN */
+.row h3{
+  margin-top: 75px;
+}
+.box-img-central img{
+  width: 550px;
+  height: 350px;
+  padding: 30px;
+}
+.box-img-central i{
+  font-size: 33px;
+}
+/* @MEDIA "Q" SCREEN--------------------------------------------------------- */
 @media screen and (max-width: 768px){
   .box-list ul li {
     width: calc(100% / 2 - 12px);
