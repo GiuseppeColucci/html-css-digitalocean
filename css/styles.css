@@ -138,7 +138,6 @@ ul li img{
 .backgraun-regions ul li{
   list-style: none;
   border-bottom: 1px solid #fff;
-
 }
 .regions{
   padding-right: 25px;
@@ -148,6 +147,31 @@ ul li img{
   padding-right: 200px;
   color: #fff;
 }
+.img-central{
+  background-color:#fff;
+  width: 550px;
+  height: 350px;
+  padding: 30px;
+  display: inline-block;
+}
+.img-central img{
+  width: 100%;
+  margin:auto;
+  height: 50%;
+}
+.bottom{
+  background: #0041cc;
+  color: #0041cc;
+}
+.bottom h2{
+  color: #fff;
+}
+.bottom-x{
+  height: 40px;
+  border-radius: 5px;
+  margin: 30px;
+}
+
 /* @MEDIA "Q" SCREEN--------------------------------------------------------- */
 @media screen and (max-width: 768px){
   .box-list ul li {
