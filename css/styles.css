@@ -159,6 +159,16 @@ ul li img{
   margin:auto;
   height: 50%;
 }
+.box-img-central{
+  position: relative;
+}
+.box-img-central i{
+  position: absolute;
+  bottom: 50%;
+}
+.box-img-central i:first-child{
+  left:293px;
+}
 .bottom{
   background: #0041cc;
   color: #0041cc;
@@ -174,6 +184,7 @@ ul li img{
 /* footer/list */
 .general-list{
   margin-top: 30px;
+  margin-bottom: 35px;
 }
 .list-link-1 ul {
   padding: 0;
@@ -183,9 +194,12 @@ ul li img{
   list-style: none;
   font-size: 35px;
 }
-.list-link-1, .list-link-2 p{
+.list-link-2 p{
   color: #fff;
 
+}
+.list-link-2{
+  margin-bottom: 30px;
 }
 
 /* @MEDIA "Q" SCREEN--------------------------------------------------------- */
