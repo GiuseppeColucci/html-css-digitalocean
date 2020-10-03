@@ -119,6 +119,13 @@ ul li img{
 .box-img-central i{
   font-size: 33px;
 }
+.container .row h3{
+  text-align: center;
+}
+.mini-box-2{
+  width: 300px;
+  margin-top: 35px;
+}
 /* @MEDIA "Q" SCREEN--------------------------------------------------------- */
 @media screen and (max-width: 768px){
   .box-list ul li {
