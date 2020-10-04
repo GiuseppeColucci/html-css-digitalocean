@@ -262,7 +262,7 @@ ul li img{
   .box-list ul li {
     width: calc(100% / 2 - 12px);
   }
-  .messag-shark img{
+  .messag-shark img, .i-messag-sharck{
     display: none;
   }
 }
