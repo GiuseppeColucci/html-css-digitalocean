@@ -35,6 +35,8 @@ body{
 }
  header .navbar-default .navbar-nav .btn-sign-up{
    color:#2485fd;
+   padding: 3px 15px;
+   margin: 11px;
  }
 /* MAIN */
 .background-top-main{
@@ -144,6 +146,7 @@ ul li img{
 .backgraun-regions ul li{
   list-style: none;
   border-bottom: 1px solid #fff;
+  padding: 8px;
 }
 .regions{
   padding-right: 25px;
@@ -199,6 +202,9 @@ ul li img{
   display: inline-block;
   list-style: none;
   font-size: 35px;
+}
+.list-link-1 ul li i{
+  margin: 0 10px;
 }
 .list-link-2 p{
   color: #fff;
