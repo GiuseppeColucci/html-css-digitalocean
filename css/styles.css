@@ -51,6 +51,9 @@ body{
 .text-box h1,p{
   padding: 15px;
 }
+.text-box p{
+  font-size: 20px;
+}
 .box-mail{
   margin-top: 55px;
   background: #fff;
@@ -222,13 +225,46 @@ ul li img{
 .p-left{
   padding-left: 0;
 }
+.messag-shark{
+  position: fixed;
+  bottom: 0;
+  right:15%;
+}
+.messag-shark img{
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  background-color: #031b4e;
+  border-radius: 5px;
+}
+.i-messag-sharck{
+  position: relative;
+  width: 300px;
+  padding: 1px;
+  background: #fff;
+  line-height: 1.45;
+  border-radius: 5px;
+  /* ombreggiatura */
+  filter:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+}
+.i-messag-sharck::before{
+  content:'';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  background: #fff;
+  transform: rotate(45deg);
+}
 
 /* @MEDIA "Q" SCREEN--------------------------------------------------------- */
 @media screen and (max-width: 768px){
   .box-list ul li {
     width: calc(100% / 2 - 12px);
   }
-
+  .messag-shark img{
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Mostra hamburger */
