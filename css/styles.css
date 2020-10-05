@@ -79,6 +79,13 @@ body{
   width: 100%;
   margin: 4px;
 }
+.google{
+  background-image: url(../img/google-icon.png);
+  background-size: 5%;
+  background-repeat: no-repeat;
+
+
+}
 /* INNOVATE BUSSINESS */
 .backgraun-lite-grey{
   background-color: #f3f5f9;
