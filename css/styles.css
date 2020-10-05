@@ -80,12 +80,17 @@ body{
   margin: 4px;
 }
 .google{
-  background-image: url(../img/google-icon.png);
-  background-size: 5%;
-  background-repeat: no-repeat;
-
-
+position: relative;
 }
+.google-icon{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  margin: -5px;
+}
+
+
 /* INNOVATE BUSSINESS */
 .backgraun-lite-grey{
   background-color: #f3f5f9;
