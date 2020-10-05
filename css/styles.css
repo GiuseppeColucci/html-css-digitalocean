@@ -134,7 +134,6 @@ ul li img{
   margin-bottom: 30px;
 }
 .mini-box-2{
-  width: 350px;
   margin-top: 35px;
 }
 .backgraun-regions{
@@ -173,13 +172,12 @@ ul li img{
 }
 .box-img-central{
   position: relative;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .box-img-central i{
   position: absolute;
   bottom: 50%;
-}
-.box-img-central i:first-child{
-  left:293px;
 }
 .bottom{
   background: #0041cc;
@@ -238,6 +236,7 @@ ul li img{
   border-radius: 5px;
 }
 .i-messag-sharck{
+  float: left;
   position: relative;
   width: 300px;
   padding: 1px;
